@@ -58,7 +58,7 @@ namespace Examen2
         {
             int valor = CLASES.TECNICOS.AgregarTecnico(txtNombre.Text, txtEspecialidad.Text);
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }
@@ -72,7 +72,7 @@ namespace Examen2
         {
             int valor = CLASES.TECNICOS.BorrarTecnico(int.Parse(txtTecnicoID.Text));
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }
@@ -86,7 +86,7 @@ namespace Examen2
         {
             int valor = CLASES.TECNICOS.ModificarTecnicos(txtTecnicoID.Text, txtNombre.Text, txtEspecialidad.Text);
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }

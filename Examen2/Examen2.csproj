@@ -85,8 +85,10 @@
     <Content Include="CSS\Botones.css" />
     <Content Include="CSS\GridView.css" />
     <Content Include="CSS\MenuCSS.css" />
+    <Content Include="DETALLESREPARACION.aspx" />
     <Content Include="EQUIPOS.aspx" />
     <Content Include="INICIO.aspx" />
+    <Content Include="REPARACIONES.aspx" />
     <Content Include="TECNICOS.aspx" />
     <Content Include="USUARIOS.aspx" />
     <Content Include="Web.config" />
@@ -104,6 +106,13 @@
     <Compile Include="CLASES\EQUIPOS.cs" />
     <Compile Include="CLASES\TECNICOS.cs" />
     <Compile Include="CLASES\USUARIOS.cs" />
+    <Compile Include="DETALLESREPARACION.aspx.cs">
+      <DependentUpon>DETALLESREPARACION.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DETALLESREPARACION.aspx.designer.cs">
+      <DependentUpon>DETALLESREPARACION.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EQUIPOS.aspx.cs">
       <DependentUpon>EQUIPOS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -125,6 +134,13 @@
     </Compile>
     <Compile Include="INICIO.aspx.designer.cs">
       <DependentUpon>INICIO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REPARACIONES.aspx.cs">
+      <DependentUpon>REPARACIONES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REPARACIONES.aspx.designer.cs">
+      <DependentUpon>REPARACIONES.aspx</DependentUpon>
     </Compile>
     <Compile Include="TECNICOS.aspx.cs">
       <DependentUpon>TECNICOS.aspx</DependentUpon>

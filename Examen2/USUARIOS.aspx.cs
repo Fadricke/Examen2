@@ -58,7 +58,7 @@ namespace Examen2
         {
             int valor = CLASES.USUARIOS.AgregarUsuarios(txtNombre.Text, txtCorreo.Text, txtTelefono.Text);
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }
@@ -72,7 +72,7 @@ namespace Examen2
         {
             int valor = CLASES.USUARIOS.BorrarUsuarios(int.Parse(txtUsuarioID.Text));
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }
@@ -86,7 +86,7 @@ namespace Examen2
         {
             int valor = CLASES.USUARIOS.ModificarUsuarios(int.Parse(txtUsuarioID.Text), txtNombre.Text, txtCorreo.Text, txtTelefono.Text);
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }

@@ -24,6 +24,8 @@
                  <li><a href="USUARIOS.aspx">Usuarios</a></li>
                  <li><a href="EQUIPOS.aspx">Equipos</a></li>
                  <li><a href="TECNICOS.aspx">Tecnicos</a></li>
+                 <li><a href="REPARACIONES.aspx">Reparaciones</a></li>
+                 <li><a href="DETALLESREPARACION.aspx">Detalles de Reparacion</a></li>
                  <li><a href="ASIGNACIONES.aspx">Asignaciones</a></li>
               </ul>
             </div>

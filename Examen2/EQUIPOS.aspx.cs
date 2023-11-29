@@ -57,7 +57,7 @@ namespace Examen2
         {
             int valor = CLASES.EQUIPOS.AgregarEquipo(txtTipo.Text, txtModelo.Text, txtUsuarioID_Equipo.Text);
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }
@@ -71,7 +71,7 @@ namespace Examen2
         {
             int valor = CLASES.EQUIPOS.BorrarEquipos(int.Parse(txtEquipoID.Text));
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }
@@ -85,7 +85,7 @@ namespace Examen2
         {
             int valor = CLASES.EQUIPOS.ModificarEquipos(txtEquipoID.Text,txtModelo.Text, txtTipo.Text);
 
-            if (valor > 0)
+            if (valor < 1)
             {
                 LlenarGrid();
             }
